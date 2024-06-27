@@ -7,7 +7,7 @@ Over the past 18 months, an emerging technology has caught the attention of the 
 The future of NFT’s is unclear as much of the NFT’s turned out to be scams of sorts since the field is wildly unregulated. They’re also contested heavily for their impact on the environment.
 Regardless of these controversies, it is clear that there is money to be made in NFT’s. And one cool part about NFT’s is that all of the data is recorded on the blockchain, meaning anytime something happens to an NFT, it is logged in this database. 
 
-In this project, analysis is to be done on real-world NFT data. 
+In this project, analysis is to be done on real-world NFT [data.](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/tree/main/data) 
 That data set is a sales data set of one of the most famous NFT projects, Cryptopunks. Meaning each row of the data set represents a sale of an NFT. The data includes sales from January 1st, 2018, to December 31st, 2021. The table has several columns including the buyer address, the ETH price, the price in U.S. dollars, the seller’s address, the date, the time, the NFT ID, the transaction hash, and the NFT name.
 
 ## What to find to proceed further:
@@ -28,8 +28,8 @@ That data set is a sales data set of one of the most famous NFT projects, Crypto
 13.	Create an “estimated average value calculator” that has a representative price of the collection every day based off of these criteria:
  - Exclude all daily outlier sales where the purchase price is below 10% of the daily average price.
  - Take the daily average of remaining transactions
- a) First create a query that will be used as a subquery. Select the event date, the USD price, and the average USD price for each day using a window function. Save it as a temporary table.
- b) Use the table you created in Part A to filter out rows where the USD prices is below 10% of the daily average and return a new estimated value which is just the daily average of the filtered data.
+ a). First create a query that will be used as a subquery. Select the event date, the USD price, and the average USD price for each day using a window function. Save it as a temporary table.
+ b). Use the table you created in Part A to filter out rows where the USD prices is below 10% of the daily average and return a new estimated value which is just the daily average of the filtered data.
 14.	Give a complete list ordered by wallet profitability (whether people have made or lost money).
 
 
