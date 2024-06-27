@@ -8,9 +8,9 @@ The future of NFT’s is unclear as much of the NFT’s turned out to be scams o
 Regardless of these controversies, it is clear that there is money to be made in NFT’s. And one cool part about NFT’s is that all of the data is recorded on the blockchain, meaning anytime something happens to an NFT, it is logged in this database. 
 
 In this project, analysis is to be done on real-world NFT [data.](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/tree/main/data) 
-That data set is a sales data set of one of the most famous NFT projects, Cryptopunks. Meaning each row of the data set represents a sale of an NFT. The data includes sales from January 1st, 2018, to December 31st, 2021. The table has several columns including the buyer address, the ETH price, the price in U.S. dollars, the seller’s address, the date, the time, the NFT ID, the transaction hash, and the NFT name.
+That data set is a sales data set of one of the most famous NFT projects, Cryptopunks. Meaning each row of the data set represents a sale of an NFT. The data includes sales from June 23rd, 2017,  to January 14th, 2022. The table has several columns including the buyer address, the ETH price, the price in U.S. dollars, the seller’s address, the date, the time, the NFT ID, the transaction hash, and the NFT name.
 
-## What to find to proceed further:
+### What to find to proceed further:
 1.	How many sales occurred during this time period? 
 2.	Return the top 5 most expensive transactions (by USD price) for this data set. Return the name, ETH price, and USD price, as well as the date.
 3.	Return a table with a row for each transaction with an event column, a USD price column, and a moving average of USD price that averages the last 50 transactions.
@@ -32,4 +32,22 @@ That data set is a sales data set of one of the most famous NFT projects, Crypto
  b). Use the table you created in Part A to filter out rows where the USD prices is below 10% of the daily average and return a new estimated value which is just the daily average of the filtered data.
 14.	Give a complete list ordered by wallet profitability (whether people have made or lost money).
 
+## Results:
+Using MySQL, analysis is done on the provided dataset for the NFTs. Below are the results sql files given for each of the findings mentioned in the description.
+- [Solution 1](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test1.sql)
+- [Solution 2](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test2.sql)
+- [Solution 3](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test3.sql)
+- [Solution 4](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test4.sql)
+- [Solution 5](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test5.sql)
+- [Solution 6](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test6.sql)
+- [Solution 7](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test7.sql)
+- [Solution 8](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test8.sql)
+- [Solution 9](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test9.sql)
+- [Solution 10](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test10.sql)
+- [Solution 11](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test11.sql)
+- [Solution 12](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test12.sql)
+- [Solution 13](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test13.sql)
+- [Solution 14a](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test14a.sql)
+- [Solution 14b](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test14b.sql)
 
+For Detailed analysis report check [Report]
