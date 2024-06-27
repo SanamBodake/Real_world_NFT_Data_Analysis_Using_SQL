@@ -50,4 +50,4 @@ Using MySQL, analysis is done on the provided dataset for the NFTs. Below are th
 - [Solution 14a](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test14a.sql)
 - [Solution 14b](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Solution/test14b.sql)
 
-For Detailed analysis report check [Report]
+For Detailed analysis report check [Report](https://github.com/SanamBodake/Real_world_NFT_Data_Analysis_Using_SQL/blob/main/Report.pdf)
